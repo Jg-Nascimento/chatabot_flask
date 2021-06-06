@@ -1,0 +1,72 @@
+{"intents": [
+        {"tag": "perdas",
+         "patterns": ["ALBEMA DISTRIBUIDORA DE ALIMENTOS EIRELI",
+            "ALGOBOM INDUSTRIA E COMERCIO DE PRODUTOS",
+            "AMBEV S.A",
+            "BARRINHAS COM. E IMP. DE BEB.E CER. LTDA",
+            "CANTU IMPORTADORA DE BEBIDAS S.A.",             
+            "CODIEL COM. DE PRODUTOS AGRICOLAS LTDA",
+            "COMPANHIA HEMMER INDUSTRIA E COMERCIO",            
+            "COOPERATIVA CENTRAL MINEIRA DE LAT LTDA",
+            "DAG DISTRIBUIDORA DE BEBIDAS LTDA",
+            "DANONE LTDA"
+            ],
+         "responses": ["Fornecedore com acordo comercial, sera feita bonificacao os produtos deverao ser considerados perdas"],
+         "context": [""]
+        },
+
+        {"tag": "retorno para estoque",
+         "patterns": ["HIGIE PLUS CHEMICAL IND E COM DE PRODUTO",
+         "INDUSTRIAS  REUNIDAS RAYMUNDO DA FONTE",
+         "INDUSTRIAS BECKER LTDA",
+         "INTERLANDIA LTDA.",
+         "IRMAOS PEREIRA & CIA LTDA",
+         "MILI S/A",
+         "NEWFORT COM RACOES E FARINHA LTDA",
+         "ONDUNORTE CIA.DE PAPEIS PAP.OND.DO NORTE",
+         "VINICOLA SALTON SA"
+         ],
+         "responses": ["Acordo Coml Bonif Retorno p Estoque"],
+         "context": [""]
+        },
+
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+
+        {"tag": "Prod por Prod s/NF ",
+         "patterns": ["RTM COMERCIO DE BEBIDAS LTDA",
+         "SABOR DA SERRA ALIMENTOS LTDA",
+         "SEBASTIAO RODRIGUES PAULO ME",
+         "SILVIO BRUNO MANDETTA LIMA",
+         "SOMAR COM E TRANSP DE ALIMENTOS LTDA.",
+         "SOUZA CRUZ LTDA.",
+         "SOUZA E SILVA IND E COM. DE ALIMENTOS LT",
+         "TAPUIO AGROPECUARIA LTDA.",
+         "TRADICAO BOLO ROLO",
+         "USINA MONTE ALEGRE S/A"
+         ],
+         "responses": ["Retorno p/ Estoque"
+         ],
+         "context": [" "]
+        },
+
+        {"tag": "contrato",
+            "patterns": ["CASA K&M",
+            "Bomtodo",
+            "Riberalves e carnes diversas",
+            "Mauriceia",
+            "LACTA",
+            "ARIEL" ,
+            "DOWNY",
+            "YPE"            
+            ],
+            "responses": ["Fornecedor com contrato, considerar perdas"
+            ],
+            "context": [" "]
+           }
+
+      ]
+}
