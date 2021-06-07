@@ -1,0 +1,2 @@
+exportar GRADIO_SERVER_NAME = 0.0.0.0
+exportar GRADIO_SERVER_PORT = " $ PORT "
