@@ -1,1 +1,7 @@
-tensorflow-2.5.0-cp39-cp39-manylinux2010_x86_64.whl
+/templates
+/static
+data.json
+label.pkl
+text.pkl
+LICENCE
+training.py
