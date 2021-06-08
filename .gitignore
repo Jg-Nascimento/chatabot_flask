@@ -2,8 +2,6 @@
 /static/styles
 /templates
 LICENSE
-Procfile
-Add files via upload
 requirements.txt
 setup.sh
 training.py
