@@ -1,6 +1,6 @@
 
-static/styles
-templates
+/static/styles
+/templates
 LICENSE
 Procfile
 Add files via upload
