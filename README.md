@@ -1,4 +1,4 @@
-<h1 text align='center'>ChatBot-Keras</h1>
+<h1 text align='center'>ChatBot</h1>
 <img src='https://www.vydence.com/wp-content/uploads/2019/03/chat-bot-1080x450.jpg' >
 
 <img src="https://img.shields.io/github/issues/Jg-Nascimento/chatbot-redeNeural" /> <img src="https://img.shields.io/github/forks/Jg-Nascimento/chatbot-redeNeural"/>
