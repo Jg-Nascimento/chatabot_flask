@@ -1,4 +1,4 @@
-tensorflow-cpu
+tensorflow-cpu==2.4.1
 nltk
 keras 
 flask
