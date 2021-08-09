@@ -6,9 +6,8 @@ import pickle
 import numpy as np
 
 from keras.models import load_model
-
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM''
+from tensorflow.keras.layers import Dense, LSTM
 
 model = load_model('model.h5')
 import json
